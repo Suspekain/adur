@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+	{% include "nagusia/head.html" %}
+	<title>ADUR - WebAplikazioa</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- PRELOADER -->
+	{% include "nagusia/preloader.html" %}
+	<!-- /PRELOADER -->
+
+	<!-- HEADER -->
+	{% include "nagusia/header.html" %}
+	<!-- /HEADER -->
+
+	{% block edukia %}
+	{% endblock %}
+
+	<!-- FOOTER -->
+	{% include "nagusia/footer.html" %}
+	<!-- /FOOTER -->
+
+	<!-- Scroll-up -->
+	{% include "nagusia/scrollup.html" %}
+
+
+	{% include "nagusia/scripts.html" %}
+
+</body>
+</html>

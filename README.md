@@ -1,1 +1,1 @@
-# adur
+# adur jokoaren web aplikazioa
