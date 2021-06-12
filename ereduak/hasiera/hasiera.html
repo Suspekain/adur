@@ -1,16 +1,17 @@
 {% extends "nagusia/oinarria.html" %}
 
+{% load static %}
 {% block edukia %}
 <!-- SLIDER -->
 <section id="slider">
   <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="item active carousel-item" style="background-image: url(assets/images/slider/01.jpg)">
+      <div class="item active carousel-item" style="background-image: url({% static 'images/slider/01.jpg' %})">
         <div class="carousel-caption container">
           <div class="row">
             <div class="col-md-7">
-              <h2>You are entire </h2>
-              <h3>creative world</h3>
+              <h2>ADUR</h2>
+              <h3>rpg</h3>
               <p>This is Photoshop&apos;s version of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
             </div>
           </div>
